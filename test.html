@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home_Teacher Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Home_Teacher</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#problem-solver">Problem Solver</a></li>
+                <li><a href="#revision">Revision Plan</a></li>
+                <li><a href="#progress">Progress</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="problem-solver">
+            <h2>Solve a Math Problem</h2>
+            <form id="problem-form">
+                <label for="problem">Enter your math problem:</label>
+                <textarea id="problem" name="problem" rows="4" placeholder="What is 2+2?"></textarea>
+                <button type="submit">Get Explanation</button>
+            </form>
+            <div id="explanation">
+                <!-- Explanation will appear here -->
+            </div>
+        </section>
+
+        <section id="revision">
+            <h2>Your Revision Plan</h2>
+            <div id="revision-plan">
+                <!-- Revision plan will be displayed here -->
+            </div>
+        </section>
+
+        <section id="progress">
+            <h2>Your Progress</h2>
+            <div id="progress-report">
+                <!-- Progress report will be displayed here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Home_Teacher. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
